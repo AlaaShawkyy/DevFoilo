@@ -1,0 +1,213 @@
+.home{
+    width: 100%;
+    height: 750px;
+    background-image: url(../images/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+    position: relative;
+}
+
+
+
+.content{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 80px;
+    font-weight: 70px;
+    color: white;
+}
+
+.navbar{
+    z-index: 1000px;
+}
+
+.item h2{
+    position: relative;
+    color: #0078ff;
+}
+
+.item{
+    padding-top: 30px;
+}
+.item p{
+    padding-top: 30px;
+}
+.item h2::after{
+    content: " ";
+    width:100px;
+    height: 3px;
+    background-color: #0078ff;
+    position: absolute;
+    top: 40px;
+    left: 0;
+     
+
+}
+.icon 
+{
+    width: 90px;
+    height:90px;
+ 
+    border: 5px solid blue ;
+    border-radius: 50%;
+}
+.card img
+{
+    transition: all 0.5s;
+}
+.card
+{
+    overflow: hidden;
+}
+.card:hover img{
+    transform: scale(1.1) !important;
+}
+.navbar 
+{
+    z-index: 999999999999999 !important;
+}
+.item1{
+    display: flex;
+}
+
+.item1 img{
+    padding-top: 20px;
+}
+
+.kolo{
+    background-color: #f5f5f5;
+}
+.kolo .container{
+    width: 70%;
+    margin: auto;
+    box-shadow: 4px 4px 10px black ,
+}
+
+
+
+.kolo2{
+    background-color: #f5f5f5;
+}
+
+.kolo2 h{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 60px;
+    font-weight: 90px;
+}
+
+.kolo2 .container{
+    width: 90%;
+    margin: auto;
+}
+
+.icon{
+    font-size: 60px;
+}
+
+
+
+.kolo2 h2{
+    color: #0078ff;
+}
+
+.skill p{
+    font-size: 30px;
+}
+
+.WORK{
+    width: 100%;
+    height: 400px;
+    background-image: url(images/counters-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(7, 105, 252, 0.719);
+    z-index: 3;
+}
+
+.num1{
+    font-size: 70px;
+
+   
+}
+
+
+.num{
+    padding-left: 70px;
+    padding-top: 80px;
+    color: #c1d9f4;
+}
+.BLOG{
+    padding-top: 30px;
+    width:80%;
+    margin: auto;
+}
+
+
+.card{
+    box-shadow: 1px 1px 10px
+}
+
+.BLOG h2{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 90px;
+   
+
+}
+
+.BLOG p{
+    text-align: center;
+    color: #818181;
+    padding-bottom: 20px;
+    position: relative;
+}
+.BLOG p::after{
+    content: " ";
+    width:100px;
+    height: 3px;
+    background-color: #0078ff;
+    position: absolute;
+    top: 40px;
+    left: 550px;
+     z-index: 2;
+
+}
+
+.kolo3{
+    background-color:#f5f5f5 ;
+}
+.slider{
+    background-image: url(images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.bg2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(7, 105, 252, 0.719);   
+}
